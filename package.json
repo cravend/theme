@@ -1,0 +1,29 @@
+{
+  "name": "@cravend/theme",
+  "version": "0.0.1-alpha3",
+  "description": "theme-ui files (based off of @hackclub/theme)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "rm -rf ./dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cravend/theme.git"
+  },
+  "author": "Dalton Craven <hello@daltoncraven.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cravend/theme/issues"
+  },
+  "homepage": "https://github.com/cravend/theme#readme",
+  "dependencies": {
+    "@hackclub/theme": "^0.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
