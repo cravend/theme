@@ -1,6 +1,6 @@
 {
   "name": "@cravend/theme",
-  "version": "0.0.1-alpha3",
+  "version": "1.0.1",
   "description": "theme-ui files (based off of @hackclub/theme)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
