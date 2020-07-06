@@ -48,8 +48,8 @@ theme.links = {
 };
 
 theme.background = {
-  rainbow: getRainbow(),
-  cornerRainbow: getCornerRainbow(),
+  rainbow: getRainbow(theme),
+  cornerRainbow: getCornerRainbow(theme),
   gradient: `linear-gradient(${theme.direction}, ${theme.colors.accent} -30%, ${theme.colors.primary} 110%)`,
 };
 

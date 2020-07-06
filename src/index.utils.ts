@@ -1,6 +1,6 @@
-import theme from '.'
+import { ThemeType } from '.';
 
-export const getRainbow = () => {
+export const getRainbow = (theme: ThemeType) => {
   const {
     red, orange, yellow, green, blue, black,
   } = theme.colors;
@@ -8,7 +8,7 @@ export const getRainbow = () => {
   return `linear-gradient(${theme.direction}, ${colors.toString()})`;
 };
 
-export const getCornerRainbow = () => {
+export const getCornerRainbow = (theme: ThemeType) => {
   const stripeWidth = 4;
   const {
     red, orange, yellow, green, blue, white, black,
