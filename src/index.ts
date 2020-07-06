@@ -1,4 +1,5 @@
 import base from '@hackclub/theme';
+import { getRainbow, getCornerRainbow } from './index.utils';
 
 export type IndexType = {
   direction: string,
@@ -19,9 +20,12 @@ export type IndexType = {
     rainbow: Record<string, string>,
     outline: Record<string, string>,
   },
-};
+  grids: {
+    layout: Record<string, string>
+  }
+} & typeof base;
 
-const theme = base as (IndexType & typeof base);
+const theme = {...base} as IndexType;
 
 theme.direction = '45deg';
 
@@ -41,27 +45,6 @@ theme.links = {
     color: 'muted',
     transition: 'color .125s ease-in-out',
   },
-};
-
-const getRainbow = () => {
-  const {
-    red, orange, yellow, green, blue, black,
-  } = theme.colors;
-  const colors = ['purple', blue, green, yellow, orange, red, 'saddlebrown', black].map((color) => `${color} `);
-  return `linear-gradient(${theme.direction}, ${colors.toString()})`;
-};
-
-const getCornerRainbow = () => {
-  const stripeWidth = 4;
-  const {
-    red, orange, yellow, green, blue, white, black,
-  } = theme.colors;
-  const colors = [white, white, 'purple', blue, green, yellow, orange, red, 'saddlebrown', black, white].map((color, index) => {
-    const startPos = index * stripeWidth;
-    const endPos = (index + 1) * stripeWidth;
-    return ` ${color} ${startPos}px, ${color} ${endPos}px`;
-  });
-  return `linear-gradient(${theme.direction}, ${colors.toString()})`;
 };
 
 theme.background = {
@@ -86,6 +69,13 @@ theme.text = {
     WebkitTextStroke: 'currentColor',
     WebkitTextStrokeWidth: '2px',
     WebkitTextFillColor: 'white',
+  },
+};
+
+theme.grids = {
+  layout: {
+    gridTemplateRows: 'auto 1fr auto',
+    minHeight: '100vh',
   },
 };
 
