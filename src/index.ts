@@ -1,7 +1,7 @@
 import base from '@hackclub/theme';
 import { getRainbow, getCornerRainbow } from './index.utils';
 
-export type IndexType = {
+export type ThemeType = {
   direction: string,
   links: {
     nav: Record<string, string>
@@ -25,7 +25,7 @@ export type IndexType = {
   }
 } & typeof base;
 
-const theme = {...base} as IndexType;
+const theme = {...base} as ThemeType;
 
 theme.direction = '45deg';
 
