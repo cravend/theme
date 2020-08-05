@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cravend/theme#readme",
   "dependencies": {
-    "@hackclub/theme": "^0.1.2"
+    "@hackclub/theme": "0.3.0"
   },
   "publishConfig": {
     "access": "public"
