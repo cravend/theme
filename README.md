@@ -4,9 +4,17 @@ This is my custom ZSH theme, which I feel is a nice balance between being inform
 
 ## Installation
 
+First, download the file:
+
 ```sh
 curl -o $ZSH_CUSTOM/themes/cravend.zsh-theme \
 https://raw.githubusercontent.com/cravend/theme/main/cravend.zsh-theme
+```
+
+Then, define your custom theme in `.zshrc`:
+
+```sh
+export ZSH_THEME="cravend"
 ```
 
 ## Features
