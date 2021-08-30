@@ -17,6 +17,16 @@ Then, define your custom theme in `.zshrc`:
 export ZSH_THEME="cravend"
 ```
 
+If you want the optional right-aligned battery display, add the battery script to `/usr/local/bin`:
+
+```sh
+curl -o /usr/local/bin/battery \
+https://raw.githubusercontent.com/cravend/theme/main/battery.sh
+
+```
+
+This script hasn't been tested except on macOS.
+
 ## Features
 
 - color-coded git symbols (new, modified, etc)
