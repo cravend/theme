@@ -1,3 +1,6 @@
+# cravend.theme is created by @cravend (https://github.com/cravend) and licensed 
+# under the MIT license (https://github.com/cravend/theme/blob/main/LICENSE.md).
+
 autoload -Uz vcs_info
 autoload -U add-zsh-hook
 theme_precmd () { vcs_info }
