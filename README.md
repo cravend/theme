@@ -36,7 +36,7 @@ This script hasn't been tested except on macOS.
 
 ## Notes
 
-I think this looks best using the [`base16_tomorrow`](https://github.com/chriskempson/tomorrow-theme#tomorrow) and [`base16_tomorrow-night-eighties`](https://github.com/chriskempson/tomorrow-theme#tomorrow-night-eighties) themes, so I wrote [`autodark`](https://github.com/cravend) to help automate switching. You should check it out!
+I think this looks best using the [`base16_tomorrow`](https://github.com/chriskempson/tomorrow-theme#tomorrow) and [`base16_tomorrow-night-eighties`](https://github.com/chriskempson/tomorrow-theme#tomorrow-night-eighties) themes, so I wrote [`autodark`](https://github.com/cravend/autodark) to help automate switching. You should check it out!
 
 ## Screenshots
 
