@@ -1,5 +1,7 @@
 # cravend.theme
 
+![Default light theme](./assets/light/home.png)
+
 This is my custom ZSH theme, which I feel is a nice balance between being informative and overwhelming.
 
 ## Installation
@@ -35,3 +37,11 @@ This script hasn't been tested except on macOS.
 ## Notes
 
 I think this looks best using the [`base16_tomorrow`](https://github.com/chriskempson/tomorrow-theme#tomorrow) and [`base16_tomorrow-night-eighties`](https://github.com/chriskempson/tomorrow-theme#tomorrow-night-eighties) themes, so I wrote [`autodark`](https://github.com/cravend) to help automate switching. You should check it out!
+
+## Screenshots
+
+|                                              |                                            |
+| -------------------------------------------- | ------------------------------------------ |
+| ![Home light theme](./assets/light/home.png) | ![Home dark theme](./assets/dark/home.png) |
+| ![Path light theme](./assets/light/path.png) | ![Path dark theme](./assets/dark/path.png) |
+| ![SSH light theme](./assets/light/ssh.png)   | ![SSH dark theme](./assets/dark/ssh.png)   |
